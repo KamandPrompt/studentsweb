@@ -1,0 +1,20 @@
+body, html {
+    height: 100%;
+  }
+  /* to blur the bg image */
+.blur-bg {
+    -webkit-filter: blur(5px) grayscale(90%);
+    filter: blur(5px);
+    background-image: url("https://images.indianexpress.com/2019/03/iitmandi1200.jpeg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    position: absolute;
+    top: 0%;
+    /* display: flex;
+    justify-content: center; */
+}
