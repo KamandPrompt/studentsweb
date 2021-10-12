@@ -2,19 +2,39 @@ body, html {
     height: 100%;
   }
   /* to blur the bg image */
-.blur-bg {
-    -webkit-filter: blur(5px) grayscale(90%);
-    filter: blur(5px);
+.landing-bg {
     background-image: url("https://images.indianexpress.com/2019/03/iitmandi1200.jpeg");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+    /* opacity: .7; */
 }
 
-.container {
+#landing-bg-overlay {
     position: absolute;
-    top: 0%;
-    /* display: flex;
-    justify-content: center; */
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
 }
+
+.landing-bg-content {
+    position: absolute;
+    top: 20%;
+    text-align:center;
+    max-width: 100% !important;
+}
+.landing-bg-text{
+    /* color: blue; */
+    /* background-color: rgb(165, 158, 150); */
+    color:rgb(255, 255, 255);
+    font-weight: 900;
+  text-shadow: 2px 5px 2px rgb(0, 0, 0);
+}
+
