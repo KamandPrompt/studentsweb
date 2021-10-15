@@ -14,11 +14,14 @@ body {
 /* -------------- FIRST PAGE STYLING --------------- */
 .firstPage {
   height: 100vh;
+  
   background-color: white;
   overflow: hidden;
   position: relative;
 }
 #firstPageContent {
+  background: url('./Images/front.jpeg');
+  background-size: cover;
   height: 100vh;
 }
 #firstPageSpace {
@@ -27,6 +30,7 @@ body {
   align-items: flex-end;
 }
 #firstPageText {
+  background-color: rgba(255,255,255,0.8);
   padding: 1vh 5%;
   font-size: 2vh;
 }
