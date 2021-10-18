@@ -17,12 +17,6 @@ h6 {
 	font-weight: 300;
 }
 
-/* on hover link for read more/less */
-.paraLink {
-  color: blue;
-  cursor: pointer;
-}
-
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
     transition-delay: 0 !important;
@@ -251,16 +245,8 @@ h6 {
   } 
 }
 
-.more {display: none;}
-.dots { color: rgb(0, 81, 255);}
-.readMoreBtn {
-	background-color: #ffffff; /* Green */
-	border: none;
-	color: rgb(0, 81, 255);
-	text-align: center;
-	display: inline-block;
-	font-size: 0.8em;
-	transition-duration: 0.4s;
-	cursor: pointer;
-	text-decoration: underline;
+.paraLink {
+  color: rgb(0, 81, 255);
+  font-size: 0.9em;
+  cursor: pointer;
 }
