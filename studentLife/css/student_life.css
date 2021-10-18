@@ -1,12 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Lora:400,400i|Open+Sans:300,400,600,700,800");
 
 body {
-	font-family: "Open Sans", sans-serif;
-	-webkit-font-smoothing: antialiased;
-}
-
-.navbar-toggler-icon {
-	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 128, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  background: #fff;
+  color: #666666;
+  font-family: "Open Sans", sans-serif;
 }
 
 h1,
@@ -15,64 +12,9 @@ h3,
 h4,
 h5,
 h6 {
+	font-family: "Open Sans", sans-serif;
 	color: #000;
 	font-weight: 300;
-}
-
-h1 {
-	font-size: 45px;
-	line-height: 61px;
-}
-
-h2 {
-	font-size: 40px;
-	line-height: 50px;
-}
-
-h3 {
-	font-size: 20px;
-	line-height: 30px;
-}
-
-p,
-li,
-blockquote,
-label {
-	font-size: 16px;
-	letter-spacing: 0;
-	line-height: 25px;
-	color: #808080;
-	margin-bottom: 0;
-}
-
-cite {
-	font-size: 14px;
-	font-style: normal;
-}
-
-.lora {
-	font-family: "Lora", serif;
-	font-style: italic;
-}
-/* Navbar responsive */
-#logo-part {
-	position: absolute;
-	width: 100%;
-	z-index: 999;
-	background-color: rgba(255, 255, 255, 0.4);
-}
-#logo{
-	width: 90px;
-	height: 80px;
-}
-@media (max-width: 440px) {
-	.mr-auto h1 {
-		font-size: 12px;
-	}
-	#logo{
-		width: 60px;
-		height: 54px;
-	}
 }
 
 #hero .hero-container .underline{
@@ -91,99 +33,6 @@ cite {
 		width: 70%;
 	  }
 }
-@media (max-width: 400px) {
-	ul.app-badge li {
-		margin-bottom: 10px;
-	}
-	#hero .hero-container .underline{
-		width: 75%;
-	  }
-}
-
-
-ul.post-tag {
-	margin-bottom: 20px;
-}
-
-ul.post-tag li {
-	font-size: 14px;
-}
-
-ul.post-tag li img {
-	width: 25px;
-	height: 25px;
-	border-radius: 100%;
-	margin-right: 5px;
-}
-
-ul.post-tag li a {
-	font-size: 14px;
-}
-
-ul.post-tag li:last-child {
-	margin-left: 25px;
-}
-
-ul.social-links {
-	margin-bottom: 0;
-}
-
-ul.social-links li:first-child a {
-	padding-left: 0;
-}
-
-ul.social-links li a {
-	padding: 0 15px;
-	display: block;
-}
-
-ul.social-links li a i {
-	font-size: 20px;
-	color: #000;
-}
-
-body {
-	overflow-x: hidden;
-}
-.site-heading {
-	position: absolute;
-	top: 400px;
-	width: 100%;
-	background-color: rgba(0, 0, 0, 0.4);
-	text-align: center;
-	z-index: 2;
-}
-
-.shadow,
-.service .service-box,
-.founder img,
-.team-sm .image img,
-.job-list .block,
-.privacy .block,
-.user-login .block .image img,
-.coming-soon .block .count-down .syotimer-cell {
-	box-shadow: 0 7px 20px 0 rgba(0, 0, 0, 0.08);
-}
-
-.overlay:before {
-	content: '';
-	background: rgba(105, 140, 230, 0.1);
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-}
-
-a {
-	font-size: inherit;
-	color: inherit;
-}
-
-
-/*--------------------------------------------------------------
-# Hero Section
---------------------------------------------------------------*/
 
 #hero {
     width: 100%;
@@ -193,13 +42,11 @@ a {
     position: relative;
   }
   @media (min-width: 1024px) {
-    #hero {
-      background-attachment: fixed;
-    }
+
   }
   #hero:before {
     content: "";
-    background: rgba(0, 0, 0, 0.418);
+    background: rgba(0, 0, 0, 0.4);
     position: absolute;
     bottom: 0;
     top: 0;
