@@ -76,7 +76,7 @@ h1 {
   font-size: 60px; }
 
 h2 {
-  font-size: 36px; }
+  font-size: 32px; }
 
 h3 {
   font-size: 28px; }
@@ -1168,6 +1168,58 @@ p {
       background-color: var(--white);
       width: 25px; }
 
+
+
+      .testimonial .testimonial-slider .item {
+        padding: 20px;
+      }
+      
+      .testimonial .testimonial-slider .item .block {
+        padding: 40px;
+        text-align: center;
+        margin: 10px;
+        border-radius: 5px;
+      }
+      
+      .testimonial .testimonial-slider .item .block .image {
+        margin-top: 30px;
+        margin-bottom: 5px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+      
+      @media (max-width: 768px) {
+        .testimonial .testimonial-slider .item .block .image {
+          flex-grow: 1;
+        }
+      }
+      
+      .testimonial .testimonial-slider .item .block .image img {
+        height: 40px;
+        width: 40px;
+        border-radius: 100%;
+      }
+      
+      .testimonial .testimonial-slider .item .block p {
+        font-family: "Lora", serif;
+        font-style: italic;
+        color: #888888;
+      }
+      
+      .testimonial .testimonial-slider .item .block cite {
+        font-style: normal;
+        font-size: 14px;
+        color: #161616;
+      }
+      
+      .testimonial .testimonial-slider .owl-dots .owl-dot:hover span {
+        background: #2e7eed;
+      }
+      
+      .testimonial .testimonial-slider .owl-dots .owl-dot.active span {
+        background: #2e7eed;
+      }
 /*===========================
        8.CONTACT css 
 ===========================*/
@@ -1265,7 +1317,9 @@ p.form-message.error {
 @media (max-width: 767px) {
   .footer-widget {
     padding-top: 30px;
-    padding-bottom: 80px; } }
+    padding-bottom: 80px;
+    margin-top: 70px;
+  } }
 
 .footer-logo a img {
   width: 140px; }
@@ -1276,6 +1330,7 @@ p.form-message.error {
 
 .footer-space{
   background-color: rgba(241, 241, 241, 0.603);
+  margin-top: 80px;
 }  
 
 .footer-logo .footer-info li {
@@ -1455,7 +1510,7 @@ p.form-message.error {
       margin-right: .6em;
     }
     .testi{
-      margin-top: 10px;
+      margin-top: 90px;
     }
     @media (min-width: 960px) {
       

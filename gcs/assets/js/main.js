@@ -138,10 +138,41 @@ $(function() {
         }, 1500);
     });
     
+    /// Testimonials
+    $('.testimonial-slider').slick({
+			slidesToShow: 1,
+			infinite: true,
+			arrows: false,
+			autoplay: true,
+			autoplaySpeed: 2000,
+			dots: true,
+			responsive: [
+				{
+					breakpoint: 991,
+					settings: {
+						slidesToShow: 1,
+						slidesToScroll: 1
+					}
+				}
+			]
+		});
     
     
-    
-    
+    function rmore() {
+      var dots = document.getElementById("dots");
+      var moreText = document.getElementById("more");
+      var btnText = document.getElementById("rmore");
+      
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more";
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less";
+        moreText.style.display = "inline";
+      }
+      }
     
     
     
