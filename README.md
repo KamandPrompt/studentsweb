@@ -1,4 +1,5 @@
 # Revamp project for Students Website of IIT Mandi
+#hacktoberfest-2021 repository 
 The current version of [students website of IIT Mandi](https://students.iitmandi.ac.in/) is not designed from user friendly approach, it is not updated rergulary as well. This project tackles this problem.
 We are completely making the whole website from scratch. Here is a comparison of old and new design:
 
