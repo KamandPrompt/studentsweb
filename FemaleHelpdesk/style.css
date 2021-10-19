@@ -20,7 +20,7 @@ body {
   position: relative;
 }
 #firstPageContent {
-  background: url('./Images/f1.jpeg');
+  background: url('./images/f1.jpeg');
   background-size: cover;
   height: 100vh;
 }
