@@ -20,7 +20,7 @@ body {
   position: relative;
 }
 #firstPageContent {
-  background: url('./Images/f1.jpeg');
+  background: url('./images/f1.jpeg');
   background-size: cover;
   height: 100vh;
 }
@@ -103,15 +103,15 @@ body {
     padding: 5vh 0vw;
     font-size: 2.1vh;
   }
-  #invitationImage {
+  /* #invitationImage {
     border-radius: 1rem;
     width: 60vw;
-  }
+  } */
   #invitationImage {
     margin-left: 6vw;
     border-radius: 1rem;
     width: 45vw;
-    height: 30vw;
+    height: auto;
   }
   #invitation {
     margin-top: 2vh;
@@ -134,7 +134,7 @@ body {
     margin-left: 6vw;
     border-radius: 1rem;
     width: 56vw;
-    height: 40vw;
+    height: auto;
   }
   
 }
